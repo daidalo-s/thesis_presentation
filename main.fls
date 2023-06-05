@@ -480,6 +480,26 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeCopenhagen.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeCopenhagen.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeCopenhagen.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeCopenhagen.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -541,6 +561,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -576,19 +597,20 @@ INPUT ./assets/images/dafny-logo-230.png
 INPUT ./assets/images/dafny-logo-230.png
 INPUT ./assets/images/dafny-logo-230.png
 INPUT ./assets/images/dafny-logo-230.png
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
-INPUT ./assets/images/Screenshot 2023-06-01 at 14.25.40.png
-INPUT ./assets/images/Screenshot 2023-06-01 at 14.25.40.png
-INPUT ./assets/images/Screenshot 2023-06-01 at 14.25.40.png
-INPUT ./assets/images/Screenshot 2023-06-01 at 14.25.40.png
-INPUT ./assets/images/Screenshot 2023-06-01 at 14.25.40.png
+INPUT ./assets/images/mechanism.png
+INPUT ./assets/images/mechanism.png
+INPUT ./assets/images/mechanism.png
+INPUT ./assets/images/mechanism.png
+INPUT ./assets/images/mechanism.png
 OUTPUT main.nav
 OUTPUT main.toc
 OUTPUT main.snm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

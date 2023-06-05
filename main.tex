@@ -8,6 +8,9 @@
 \usepackage{listings}    
 % ------------- FINE PACCHETTI ---------------
 
+
+\usetheme{Copenhagen}
+
 % --------------- INTESTAZIONE ---------------
 \title{Verifica funzionale di programmi con Dafny}
 \author{Lorenzo Quellerba}
@@ -24,71 +27,96 @@
 % 2 - Minimo sindacale di teoria alla base
 % 3 - Presentazione esempio albero
 
+% Qua spieghi le caratteristiche del linguaggio:
+% 1: Linguaggio oo con supporto anche funzionale (se lo vuoi dire)
+% 2: Il processo di sviluppo in Dafny include anche la verifica funzionale 
+% 3: Devi annotare programma con pre, post, inv, variant, e poi tutto a smt solver
+% 4: Un programma Dafny poi può essere compilato in altri linguaggio di programmazione
 \begin{frame}{Dafny}
     \begin{columns}[onlytextwidth]
-        \column{0.7\textwidth}
+        \column{0.75\textwidth}
         \begin{itemize}
-            \item Dafny è un linguaggio di programmazione che supporta sia il paradigma imperativo
-            \item Supporta la verifica funzionale attraverso blabla
-            \item Un programma Dafny può anche essere compilato in altri linguaggi tra cui
+            \item Dafny è un linguaggio di programmazione \textit{object oriented} che supporta sia il paradigma imperativo che quello funzionale
+            \item Supporta la specifica formale attraverso precondizioni, postcondizioni, invarianti, varianti e il \textit{framing} della memoria
+            \item La parte di dimostrazioen è gestita da Z3, un SMT solver
+            \item Al termine del processo di verifica un programma Dafny può essere compilato in altri linguaggi tra cui C++, Go, Java
+            \item Il programma finale scritto in Dafny ricade nel paradigma \textit{correct by construction}
         \end{itemize}
-        \column{0.3\textwidth}
+        \column{0.25\textwidth}
         \begin{figure}
-            \includegraphics[scale=0.45]{./assets/images/dafny-logo-230.png}
-            \caption[short]{Logo}
+            \includegraphics[scale=0.4]{./assets/images/dafny-logo-230.png}
         \end{figure}
     \end{columns}
-    
 \end{frame}
 
-\begin{frame}{Verifica funzionale}
-    Qua dentro accenni al problema della verifica funzionale (letteralmente al massimo la tripla di Hoare e i predicate transformer)
+\begin{frame}{Dafny: funzionamento}
+    % Ora un veloce richiamo di teoria 
+    % 1. Concetto alla base è quello di tripla di Hoare
+    % 2. Per separare parte logica da parte sintattica usi wp calculus
+    % 3. La formula che ottieni viene passata a SMT solver
+    % 4. Grafico smt solver
+    \only<1>{
+    \begin{block}{Tripla di Hoare}
+        \begin{center}
+            \{P\}C\{Q\}     
+        \end{center}
+        Se l'asserzione \textit{P} è vera prima dell'esecuzione del comando \textit{C} allora l'asserzione \textit{Q} sarà vera al termine dell'esecuzione
+    \end{block}
+    \begin{block}{\textit{Predicate transformer semantics}}
+        La semantica dei \textit{predicate transformer} è una riformulazione della logica di \textit{Floyd-Hoare} che definisce una strategia completa per la costruzione di deduzioni valide
+    \end{block}
+    \begin{block}{\textit{Weakest precondition}}
+        Dato un comando \textit{C} e una postcondizione \textit{Q} la \textit{weakest precondition} (\textit{wp}) è un predicato \textit{$\phi$} tale per cui per ogni precondizione \textit{P}, \{P\}C\{Q\} se e solo se P$\implies \phi$
+    \end{block}
+    }
+    \only<2>{
+        \begin{figure}
+            \includegraphics[scale=0.4]{./assets/images/mechanism.png}
+        \end{figure}
+    }
 \end{frame}
 
-\begin{frame}{Dafny}
-    Qua parli di Dafny
+\begin{frame}{Caratteristiche del linguaggio}
+% Ora veramente in super sintesi le caratteristiche del linguaggio
+% 1. Tipi
+% 2. Generici
+% 3. Predicati metodi e funzioni    
+    \begin{itemize}
+        \item Reference types e value types
+        \item Generici
+        \item predicati metodi funzioni classi
+        \item 
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{Albero binario di ricerca}
+% Albero binario di ricerca con veloce presentazione della struttura dati
     Implementazione dell'albero binario di ricerca
 \end{frame}
 
-\begin{frame}{Il rene}
-    \begin{enumerate}
-        \item Il rene è un organo del corpo umano
-        \item È molto importante
-        \item Non puoi vivere senza entrambi ma con solo uno si
-    \end{enumerate}
-    \begin{figure}
-        \includegraphics[scale=0.4]{./assets/images/Screenshot 2023-06-01 at 14.25.40.png}
-    \end{figure}
+\begin{frame}{BST: variabili d'istanza}
+    Variabili d'istanza
 \end{frame}
 
-\begin{frame}
-    \begin{enumerate}
-        \onslide<1-> \item Primo elemento
-        \onslide<2-> \item Secondo elemento
-        \onslide<3->  \item Terzo elemento
-        \onslide<4>  \item Quarto elemento
-    \end{enumerate}
+\begin{frame}{BST: invariante di struttura}
+    invariante
 \end{frame}
 
-\begin{frame}
-    \only<1>{Ciao}
-    \only<2>{Mondo}
+\begin{frame}{BST: costruttore}
+    Costruttore
 \end{frame}
 
-\begin{frame}{Titolo della slide}
-    \begin{enumerate}
-        \only<1>{
-            \item Vorrei questo nella prima
-            \item Anche questo nella prima
-        }
-        \only<2>{
-            \item Questo nella seconda
-            \item Questo nella seconda
-        }
-    \end{enumerate}
+\begin{frame}{BST: inserimento}
+    Inserimento
 \end{frame}
+
+\begin{frame}{BST: ricerca}
+    ricerca
+\end{frame}
+
+\begin{frame}{BST: cancellazione}
+    Cancellazione
+\end{frame}
+
 
 \end{document}
