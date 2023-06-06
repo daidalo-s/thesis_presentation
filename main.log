@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.3)  5 JUN 2023 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.3)  6 JUN 2023 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,38 +775,38 @@ Dictionary: translator-theorem-dictionary, Language: English
  (./main.nav) [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 50.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 49.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
 <./assets/images/dafny-logo-230.png, id=50, 230.8625pt x 191.71625pt>
 File: ./assets/images/dafny-logo-230.png Graphic file (type png)
 <use ./assets/images/dafny-logo-230.png>
-Package pdftex.def Info: ./assets/images/dafny-logo-230.png  used on input line 50.
+Package pdftex.def Info: ./assets/images/dafny-logo-230.png  used on input line 49.
 (pdftex.def)             Requested size: 92.34335pt x 76.68513pt.
 
-Overfull \hbox (15.52089pt too wide) in paragraph at lines 50--50
+Overfull \hbox (15.52089pt too wide) in paragraph at lines 49--49
  [] 
  []
 
 [2
 
  <./assets/images/dafny-logo-230.png>]
-LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 77.
-LaTeX Font Info:    No file OMScmss.fd. on input line 77.
+LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 76.
+LaTeX Font Info:    No file OMScmss.fd. on input line 76.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 77.
+(Font)              for symbol `textbraceleft' on input line 76.
 
 [3
 
@@ -814,10 +814,10 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 <./assets/images/mechanism.png, id=112, 338.26375pt x 553.06625pt>
 File: ./assets/images/mechanism.png Graphic file (type png)
 <use ./assets/images/mechanism.png>
-Package pdftex.def Info: ./assets/images/mechanism.png  used on input line 77.
+Package pdftex.def Info: ./assets/images/mechanism.png  used on input line 76.
 (pdftex.def)             Requested size: 135.30309pt x 221.22258pt.
 
-Overfull \vbox (1.152pt too high) detected at line 77
+Overfull \vbox (1.152pt too high) detected at line 76
  []
 
 [4
@@ -826,17 +826,147 @@ Overfull \vbox (1.152pt too high) detected at line 77
 
 ] [6
 
-] [7
+] (./assets/code/bst_instance_var.dfy
+LaTeX Font Info:    Trying to load font information for OML+cmss on input line 7.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 7.
 
-] [8
 
-] [9
+LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 7.
 
-] [10
+) [7
 
-] [11
+] (./assets/code/bst_invariant.dfy
+Overfull \hbox (1.50334pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-] [12
+
+Overfull \hbox (86.91423pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (14.64348pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (93.4843pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.1945pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (106.62444pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (119.76457pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \vbox (41.40956pt too high) detected at line 102
+ []
+
+[8
+
+] (./assets/code/bst_constructor.dfy
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 2.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)) [9
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./assets/code/bst_insert.dfy
+Overfull \hbox (211.74553pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \vbox (109.40959pt too high) detected at line 110
+ []
+
+[10
+
+] (./assets/code/bst_find.dfy)
+Overfull \vbox (95.80959pt too high) detected at line 114
+ []
+
+[11
+
+] (./assets/code/bst_remove.dfy
+Overfull \hbox (1.50334pt too wide) in paragraph at lines 1--2
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (1.50334pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (244.59587pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (14.64348pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.78362pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (40.92375pt too wide) in paragraph at lines 33--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \vbox (272.60966pt too high) detected at line 123
+ []
+
+[12
+
+] (./assets/code/bst_removeMin.dfy
+Overfull \hbox (47.49382pt too wide) in paragraph at lines 1--2
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (14.64348pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (257.73601pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (211.74553pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (14.64348pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \vbox (82.20958pt too high) detected at line 123
+ []
+
+[13
 
 ]
 \tf@nav=\write6
@@ -856,18 +986,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23478 strings out of 476038
- 456502 string characters out of 5790171
- 1866785 words of memory out of 5000000
- 43420 multiletter control sequences out of 15000+600000
- 519393 words of font info for 57 fonts, out of 8000000 for 9000
+ 23814 strings out of 476038
+ 460732 string characters out of 5790171
+ 1925785 words of memory out of 5000000
+ 43724 multiletter control sequences out of 15000+600000
+ 519738 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,444b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (12 pages, 201783 bytes).
+ 128i,15n,122p,444b,1278s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on main.pdf (13 pages, 217226 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 27 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

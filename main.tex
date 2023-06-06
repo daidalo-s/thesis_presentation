@@ -34,13 +34,12 @@
 % 4: Un programma Dafny poi può essere compilato in altri linguaggio di programmazione
 \begin{frame}{Dafny}
     \begin{columns}[onlytextwidth]
-        \column{0.75\textwidth}
+        \column{0.7\textwidth}
         \begin{itemize}
             \item Dafny è un linguaggio di programmazione \textit{object oriented} che supporta sia il paradigma imperativo che quello funzionale
-            \item Supporta la specifica formale attraverso precondizioni, postcondizioni, invarianti, varianti e il \textit{framing} della memoria
-            \item La parte di dimostrazioen è gestita da Z3, un SMT solver
+            \item Supporta la specifica formale attraverso precondizioni, postcondizioni, invarianti, varianti e i \textit{dynamic frames} per la formalizzazione delle modifiche della memoria
+            \item La correttezza del codice viene verificata rispetto alla specifica data da un SMT solver (\textit{correct by construction})
             \item Al termine del processo di verifica un programma Dafny può essere compilato in altri linguaggi tra cui C++, Go, Java
-            \item Il programma finale scritto in Dafny ricade nel paradigma \textit{correct by construction}
         \end{itemize}
         \column{0.25\textwidth}
         \begin{figure}
@@ -91,31 +90,36 @@
 
 \begin{frame}{Albero binario di ricerca}
 % Albero binario di ricerca con veloce presentazione della struttura dati
-    Implementazione dell'albero binario di ricerca
+    Richiamo di teoria della struttura
 \end{frame}
 
 \begin{frame}{BST: variabili d'istanza}
-    Variabili d'istanza
+    \lstinputlisting[]{./assets/code/bst_instance_var.dfy}
 \end{frame}
 
 \begin{frame}{BST: invariante di struttura}
-    invariante
+    \lstinputlisting[]{./assets/code/bst_invariant.dfy}
 \end{frame}
 
 \begin{frame}{BST: costruttore}
-    Costruttore
+    \lstinputlisting[]{./assets/code/bst_constructor.dfy}
 \end{frame}
 
 \begin{frame}{BST: inserimento}
-    Inserimento
+    \lstinputlisting[]{./assets/code/bst_insert.dfy}
 \end{frame}
 
 \begin{frame}{BST: ricerca}
-    ricerca
+    \lstinputlisting[]{./assets/code/bst_find.dfy}
 \end{frame}
 
 \begin{frame}{BST: cancellazione}
-    Cancellazione
+    \only<1>{
+        \lstinputlisting[]{./assets/code/bst_remove.dfy}
+    }
+    \only<2>{
+        \lstinputlisting[]{./assets/code/bst_removeMin.dfy}
+    }
 \end{frame}
 
 
