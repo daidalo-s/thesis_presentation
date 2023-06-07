@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.3)  6 JUN 2023 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.3)  7 JUN 2023 12:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,24 +632,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -704,60 +704,60 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 20.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 21.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 20.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 21.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 21.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 21.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 21.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 21.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 21.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 21.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 20.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 21.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 21.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 21.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 20.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -775,56 +775,64 @@ Dictionary: translator-theorem-dictionary, Language: English
  (./main.nav) [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 49.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 79.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
 <./assets/images/dafny-logo-230.png, id=50, 230.8625pt x 191.71625pt>
 File: ./assets/images/dafny-logo-230.png Graphic file (type png)
 <use ./assets/images/dafny-logo-230.png>
-Package pdftex.def Info: ./assets/images/dafny-logo-230.png  used on input line 49.
+Package pdftex.def Info: ./assets/images/dafny-logo-230.png  used on input line 79.
 (pdftex.def)             Requested size: 92.34335pt x 76.68513pt.
 
-Overfull \hbox (15.52089pt too wide) in paragraph at lines 49--49
+Overfull \hbox (15.52089pt too wide) in paragraph at lines 79--79
  [] 
  []
 
 [2
 
  <./assets/images/dafny-logo-230.png>]
-LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 76.
-LaTeX Font Info:    No file OMScmss.fd. on input line 76.
+<./assets/images/error_example.png, id=80, 794.97pt x 233.87375pt>
+File: ./assets/images/error_example.png Graphic file (type png)
+<use ./assets/images/error_example.png>
+Package pdftex.def Info: ./assets/images/error_example.png  used on input line 79.
+(pdftex.def)             Requested size: 278.24367pt x 81.85703pt.
+ [3
+
+ <./assets/images/error_example.png>]
+LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 106.
+LaTeX Font Info:    No file OMScmss.fd. on input line 106.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 76.
-
-[3
-
-]
-<./assets/images/mechanism.png, id=112, 338.26375pt x 553.06625pt>
-File: ./assets/images/mechanism.png Graphic file (type png)
-<use ./assets/images/mechanism.png>
-Package pdftex.def Info: ./assets/images/mechanism.png  used on input line 76.
-(pdftex.def)             Requested size: 135.30309pt x 221.22258pt.
-
-Overfull \vbox (1.152pt too high) detected at line 76
- []
+(Font)              for symbol `textbraceleft' on input line 106.
 
 [4
 
- <./assets/images/mechanism.png>] [5
+]
+<./assets/images/mechanism.png, id=141, 338.26375pt x 553.06625pt>
+File: ./assets/images/mechanism.png Graphic file (type png)
+<use ./assets/images/mechanism.png>
+Package pdftex.def Info: ./assets/images/mechanism.png  used on input line 106.
+(pdftex.def)             Requested size: 135.30309pt x 221.22258pt.
 
-] [6
+Overfull \vbox (1.152pt too high) detected at line 106
+ []
+
+[5
+
+ <./assets/images/mechanism.png>] [6
+
+] [7
 
 ] (./assets/code/bst_instance_var.dfy
 LaTeX Font Info:    Trying to load font information for OML+cmss on input line 7.
@@ -835,7 +843,7 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textless' on input line 7.
 
-) [7
+) [8
 
 ] (./assets/code/bst_invariant.dfy
 Overfull \hbox (1.50334pt too wide) in paragraph at lines 7--8
@@ -873,16 +881,16 @@ Overfull \hbox (119.76457pt too wide) in paragraph at lines 17--18
  []
 
 )
-Overfull \vbox (41.40956pt too high) detected at line 102
+Overfull \vbox (41.40956pt too high) detected at line 132
  []
 
-[8
+[9
 
 ] (./assets/code/bst_constructor.dfy
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 2.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)) [9
+)) [10
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./assets/code/bst_insert.dfy
 Overfull \hbox (211.74553pt too wide) in paragraph at lines 4--5
@@ -890,16 +898,16 @@ Overfull \hbox (211.74553pt too wide) in paragraph at lines 4--5
  []
 
 )
-Overfull \vbox (109.40959pt too high) detected at line 110
- []
-
-[10
-
-] (./assets/code/bst_find.dfy)
-Overfull \vbox (95.80959pt too high) detected at line 114
+Overfull \vbox (109.40959pt too high) detected at line 140
  []
 
 [11
+
+] (./assets/code/bst_find.dfy)
+Overfull \vbox (95.80959pt too high) detected at line 144
+ []
+
+[12
 
 ] (./assets/code/bst_remove.dfy
 Overfull \hbox (1.50334pt too wide) in paragraph at lines 1--2
@@ -932,10 +940,10 @@ Overfull \hbox (40.92375pt too wide) in paragraph at lines 33--34
  []
 
 )
-Overfull \vbox (272.60966pt too high) detected at line 123
+Overfull \vbox (272.60966pt too high) detected at line 153
  []
 
-[12
+[13
 
 ] (./assets/code/bst_removeMin.dfy
 Overfull \hbox (47.49382pt too wide) in paragraph at lines 1--2
@@ -963,10 +971,10 @@ Overfull \hbox (14.64348pt too wide) in paragraph at lines 20--21
  []
 
 )
-Overfull \vbox (82.20958pt too high) detected at line 123
+Overfull \vbox (82.20958pt too high) detected at line 153
  []
 
-[13
+[14
 
 ]
 \tf@nav=\write6
@@ -986,18 +994,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23814 strings out of 476038
- 460732 string characters out of 5790171
- 1925785 words of memory out of 5000000
- 43724 multiletter control sequences out of 15000+600000
+ 23825 strings out of 476038
+ 461060 string characters out of 5790171
+ 1926785 words of memory out of 5000000
+ 43732 multiletter control sequences out of 15000+600000
  519738 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,444b,1278s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (13 pages, 217226 bytes).
+Output written on main.pdf (14 pages, 296066 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 27 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 392 compressed objects within 4 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,7 +8,6 @@
 \usepackage{listings}    
 % ------------- FINE PACCHETTI ---------------
 
-
 \usetheme{Copenhagen}
 
 % --------------- INTESTAZIONE ---------------
@@ -20,32 +19,63 @@
 
 \begin{document}
 \maketitle
-
-% Il problema è definire come vogliamo dire le cose
-% Dobbiamo parlare di:
-% 1 - Introduzione a Dafny
-% 2 - Minimo sindacale di teoria alla base
-% 3 - Presentazione esempio albero
-
 % Qua spieghi le caratteristiche del linguaggio:
 % 1: Linguaggio oo con supporto anche funzionale (se lo vuoi dire)
 % 2: Il processo di sviluppo in Dafny include anche la verifica funzionale 
 % 3: Devi annotare programma con pre, post, inv, variant, e poi tutto a smt solver
 % 4: Un programma Dafny poi può essere compilato in altri linguaggio di programmazione
 \begin{frame}{Dafny}
-    \begin{columns}[onlytextwidth]
-        \column{0.7\textwidth}
+    \only<1>{
+        \begin{columns}[onlytextwidth]
+            \column{0.7\textwidth}
+                \begin{itemize}
+                % Devo dire cosa distingue dafny dagli altri linguaggi di programazione:
+                % il fatto che supporta nativamente la verifica funzionale
+                % \item Dafny è un linguaggio di programmazione sviluppato da 
+                % \textit{object oriented} che 
+                % supporta sia il paradigma imperativo che quello funzionale
+                % \item Supporta la specifica formale attraverso precondizioni, 
+                % postcondizioni, invarianti, varianti e i \textit{dynamic frames} per 
+                % la formalizzazione delle modifiche della memoria
+                % \item La correttezza del codice viene verificata rispetto alla specifica 
+                % data da un SMT solver (\textit{correct by construction})
+                % \item Al termine del processo di verifica un programma Dafny può essere 
+                % compilato in altri linguaggi tra cui C++, Go, Java
+                    % \item Dafny è un linguaggio di programmazione che include al suo interno 
+                    % meccanismi dedicati alla verifica di correttezza funzionale 
+                    % del programma
+                    % \item Il linguaggio comprende imperative, sequential, supports generic 
+                    % classes, inheritance and abstraction, methods and functions, dynamic 
+                    % allocation, inductive and coinductive datatypes, and specification 
+                    % constructs
+                    % \item To further support specifications, the language also offers 
+                    % updatable ghost variables, recursive functions, and types like sets 
+                    % and sequences. Specifications and ghost constructs are used only during 
+                    % verification; the compiler omits them from the executable code.
+                    \item Dafny è un linguaggio di programmazione che supporta nativamente la verifica funzionale
+                    \item Durante lo sviluppo, un programma Dafny viene annotato con la specifica del comportamento 
+                    e automaticamente un verificatore statico controlla che il codice rispetti la specifica (correct by construction)
+                    \item Il linguaggio supporta (caratteristiche ad alto livello)
+                \end{itemize}
+            \column{0.25\textwidth}
+            \begin{figure}
+                \includegraphics[scale=0.4]{./assets/images/dafny-logo-230.png}
+            \end{figure}
+        \end{columns}
+}
+    \only<2>{
         \begin{itemize}
-            \item Dafny è un linguaggio di programmazione \textit{object oriented} che supporta sia il paradigma imperativo che quello funzionale
-            \item Supporta la specifica formale attraverso precondizioni, postcondizioni, invarianti, varianti e i \textit{dynamic frames} per la formalizzazione delle modifiche della memoria
-            \item La correttezza del codice viene verificata rispetto alla specifica data da un SMT solver (\textit{correct by construction})
-            \item Al termine del processo di verifica un programma Dafny può essere compilato in altri linguaggi tra cui C++, Go, Java
-        \end{itemize}
-        \column{0.25\textwidth}
-        \begin{figure}
-            \includegraphics[scale=0.4]{./assets/images/dafny-logo-230.png}
-        \end{figure}
-    \end{columns}
+            \item La formalizzazione della specifica è resa possibile da precondizioni, 
+            postcondizioni, invarianti, metriche di terminazione e il framing della 
+            memoria nel caso di side effects
+            \item Il verificatore statico esegue continuamente la verifica in background grazie ad un LSP e riporta gli errori: per l’utente 
+            l’interazione è la medesima che si avrebbe com un compilatore
+            \begin{figure}
+                \includegraphics[scale=0.35]{./assets/images/error_example.png}
+            \end{figure}
+            \item Il programma finale può essere compilato in altri linguaggi (elenco) per permette integreazione in altri programmi
+        \end{itemize}    
+    }
 \end{frame}
 
 \begin{frame}{Dafny: funzionamento}
@@ -121,6 +151,5 @@
         \lstinputlisting[]{./assets/code/bst_removeMin.dfy}
     }
 \end{frame}
-
 
 \end{document}

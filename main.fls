@@ -561,7 +561,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -597,6 +596,12 @@ INPUT ./assets/images/dafny-logo-230.png
 INPUT ./assets/images/dafny-logo-230.png
 INPUT ./assets/images/dafny-logo-230.png
 INPUT ./assets/images/dafny-logo-230.png
+INPUT ./assets/images/error_example.png
+INPUT ./assets/images/error_example.png
+INPUT ./assets/images/error_example.png
+INPUT ./assets/images/error_example.png
+INPUT ./assets/images/error_example.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT ./assets/images/mechanism.png
 INPUT ./assets/images/mechanism.png
 INPUT ./assets/images/mechanism.png

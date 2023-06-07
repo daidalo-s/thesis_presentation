@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1686046149 "/Users/lorenzo/Developer/presentazione_tesi/main.tex" "main.pdf" "main" 1686046152 0
-  "/Users/lorenzo/Developer/presentazione_tesi/main.tex" 1686046146 4569 aab0710677edf784efcf834d99c27ddb ""
+["pdflatex"] 1686134461 "/Users/lorenzo/Developer/presentazione_tesi/main.tex" "main.pdf" "main" 1686134464 0
+  "/Users/lorenzo/Developer/presentazione_tesi/main.tex" 1686134460 6872 5dc95db17f92ef36596871956a77d8dd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1136768653 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
@@ -211,11 +211,12 @@
   "assets/code/bst_remove.dfy" 1686045402 1035 6f2e072a3553588bbb844daa529edd86 ""
   "assets/code/bst_removeMin.dfy" 1686045417 632 d66304efee1da0d146ff0fcf1988b268 ""
   "assets/images/dafny-logo-230.png" 1685902662 39526 54e7e63ef7fb9150375ef9f35357f52b ""
+  "assets/images/error_example.png" 1686068358 142306 ad3ae1dca92d22620c0b385c7ddaa6f3 ""
   "assets/images/mechanism.png" 1685979536 180111 466d3663f497b98613e5803ce1d127d5 ""
-  "main.aux" 1686046151 3114 943dbda01875263bb906e8b6376fe4e1 "pdflatex"
-  "main.nav" 1686046151 1206 d3ee2703725ab65f1e846b2a28a2dd7a "pdflatex"
-  "main.out" 1686046150 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1686046146 4569 aab0710677edf784efcf834d99c27ddb ""
+  "main.aux" 1686134463 3119 eec67d1958e5c7bddf40578aa1a00a8b "pdflatex"
+  "main.nav" 1686134463 1210 5d8ddd157943c70e7e7ddf524fe32bc4 "pdflatex"
+  "main.out" 1686134462 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1686134460 6872 5dc95db17f92ef36596871956a77d8dd ""
   (generated)
   "main.aux"
   "main.log"
