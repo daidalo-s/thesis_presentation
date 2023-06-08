@@ -13,49 +13,22 @@
 % --------------- INTESTAZIONE ---------------
 \title{Verifica funzionale di programmi con Dafny}
 \author{Lorenzo Quellerba}
-\institute{Univeristà degli Studi di Torino}
-\date{June 2023}
+\institute{Università degli Studi di Torino}
+\date{13 Giugno 2023}
 % --------------- FINE INTESTAZIONE ---------------
 
 \begin{document}
 \maketitle
-% Qua spieghi le caratteristiche del linguaggio:
-% 1: Linguaggio oo con supporto anche funzionale (se lo vuoi dire)
-% 2: Il processo di sviluppo in Dafny include anche la verifica funzionale 
-% 3: Devi annotare programma con pre, post, inv, variant, e poi tutto a smt solver
-% 4: Un programma Dafny poi può essere compilato in altri linguaggio di programmazione
 \begin{frame}{Dafny}
     \only<1>{
         \begin{columns}[onlytextwidth]
             \column{0.7\textwidth}
                 \begin{itemize}
-                % Devo dire cosa distingue dafny dagli altri linguaggi di programazione:
-                % il fatto che supporta nativamente la verifica funzionale
-                % \item Dafny è un linguaggio di programmazione sviluppato da 
-                % \textit{object oriented} che 
-                % supporta sia il paradigma imperativo che quello funzionale
-                % \item Supporta la specifica formale attraverso precondizioni, 
-                % postcondizioni, invarianti, varianti e i \textit{dynamic frames} per 
-                % la formalizzazione delle modifiche della memoria
-                % \item La correttezza del codice viene verificata rispetto alla specifica 
-                % data da un SMT solver (\textit{correct by construction})
-                % \item Al termine del processo di verifica un programma Dafny può essere 
-                % compilato in altri linguaggi tra cui C++, Go, Java
-                    % \item Dafny è un linguaggio di programmazione che include al suo interno 
-                    % meccanismi dedicati alla verifica di correttezza funzionale 
-                    % del programma
-                    % \item Il linguaggio comprende imperative, sequential, supports generic 
-                    % classes, inheritance and abstraction, methods and functions, dynamic 
-                    % allocation, inductive and coinductive datatypes, and specification 
-                    % constructs
-                    % \item To further support specifications, the language also offers 
-                    % updatable ghost variables, recursive functions, and types like sets 
-                    % and sequences. Specifications and ghost constructs are used only during 
-                    % verification; the compiler omits them from the executable code.
                     \item Dafny è un linguaggio di programmazione che supporta nativamente la verifica funzionale
-                    \item Durante lo sviluppo, un programma Dafny viene annotato con la specifica del comportamento 
-                    e automaticamente un verificatore statico controlla che il codice rispetti la specifica (correct by construction)
-                    \item Il linguaggio supporta (caratteristiche ad alto livello)
+                    \item Durante lo sviluppo, un programma Dafny viene annotato con la specifica formale del comportamento atteso
+                    e automaticamente un verificatore statico (un dimostratore automatico) controlla che il codice la rispetti (\textit{correct by construction})
+                    \item Il linguaggio supporta sia il paradigma imperativo che quello funzionale, i generici,
+                    l'ereditarietà, l'incapsulamento, l'allocazione dinamica della memoria e i tipi di dato induttivi
                 \end{itemize}
             \column{0.25\textwidth}
             \begin{figure}
@@ -65,16 +38,25 @@
 }
     \only<2>{
         \begin{itemize}
-            \item La formalizzazione della specifica è resa possibile da precondizioni, 
-            postcondizioni, invarianti, metriche di terminazione e il framing della 
-            memoria nel caso di side effects
-            \item Il verificatore statico esegue continuamente la verifica in background grazie ad un LSP e riporta gli errori: per l’utente 
-            l’interazione è la medesima che si avrebbe com un compilatore
+            \item Durante lo sviluppo il verificatore statico esegue costantemente la verifica in background e mostra a schermo
+            eventuali errori: dal punto di vista dell'utente l'interazione è molto simile a quella che normalmente si ha con un compilatore
             \begin{figure}
                 \includegraphics[scale=0.35]{./assets/images/error_example.png}
             \end{figure}
-            \item Il programma finale può essere compilato in altri linguaggi (elenco) per permette integreazione in altri programmi
+            \item La formalizzazione della specifica è resa possibile da \textit{keyword} riservate per le precondizioni, 
+            postcondizioni, invarianti, metriche di terminazione e per il framing della 
+            memoria nel caso in cui il programma abbia \textit{side effects}
         \end{itemize}    
+    }
+    \only<3>{
+        \begin{itemize}
+            \item Inoltre, per supportare ulteriormente la specifica, il linguaggio offre variabili \textit{ghost} aggiornabili,
+            funzioni ricorsive e tipi come \textit{set} e liste
+            \item I costrutti per la specifica e i costrutti \textit{ghost} vengono utilizzati unicamente durante la verifica
+            e sono omessi dal programma eseguibile
+            \item Il programma finale può essere compilato in altri linguaggi come ad esempio (C++, Java e Go) per permettere 
+            l'integrazione in altri programmi
+        \end{itemize}
     }
 \end{frame}
 
@@ -105,22 +87,48 @@
     }
 \end{frame}
 
-\begin{frame}{Caratteristiche del linguaggio}
+\begin{frame}[containsverbatim]{Caratteristiche del linguaggio}
 % Ora veramente in super sintesi le caratteristiche del linguaggio
 % 1. Tipi
 % 2. Generici
-% 3. Predicati metodi e funzioni    
-    \begin{itemize}
-        \item Reference types e value types
-        \item Generici
-        \item predicati metodi funzioni classi
-        \item 
-    \end{itemize}
+% 3. Predicati metodi e funzioni   
+        \begin{itemize}
+            \item I programmi Dafny sono principalmente composti da classi, metodi e predicati
+            \begin{lstlisting}[basicstyle=\tiny]
+class Nome {
+    var nomeVar : tipo
+    
+    constructor(param : tipo)
+        ensures _postcondizione_
+    { Corpo.. }
+
+    predicate Valid()
+        reads _frame di memoria_
+    { Corpo.. }
+
+    method NomeMetodo (param : tipo) returns (valore : tipo)
+        requires _precondizione_
+        modifies _frame di memoria_
+        ensures _postcondizione_
+        decreases _metrica di terminazione_
+    { Corpo.. }
+}
+            \end{lstlisting}
+        \end{itemize}
 \end{frame}
 
-\begin{frame}{Albero binario di ricerca}
+\begin{frame}{Caso di studio: BST}
 % Albero binario di ricerca con veloce presentazione della struttura dati
-    Richiamo di teoria della struttura
+    \begin{block}{Albero binario di ricerca}
+        Un albero binario di ricerca è una struttura dati concatenata in cui ogni nodo è un oggetto.
+        Ogni nodo al suo interno contiene una chiave e gli attributi \textit{left} e \textit{right} che puntano
+        rispettivamente al figlio sinistro e al figlio destro
+    \end{block}
+    \begin{block}{Proprietà degli alberi binari di ricerca}
+        Sia \textit{x} un nodo in un albero binario di ricerca. Se \textit{y} è un nodo nel sottoalbero sinistro
+        di \textit{x} allora \textit{y.key} $< $ \textit{x.key}. Se \textit{y} è un nodo nel sottoalbero destro
+        di \textit{x} allora \textit{y.key} $> $ \textit{x.key}
+    \end{block}
 \end{frame}
 
 \begin{frame}{BST: variabili d'istanza}
@@ -128,7 +136,7 @@
 \end{frame}
 
 \begin{frame}{BST: invariante di struttura}
-    \lstinputlisting[]{./assets/code/bst_invariant.dfy}
+    \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_invariant.dfy}
 \end{frame}
 
 \begin{frame}{BST: costruttore}
@@ -136,19 +144,19 @@
 \end{frame}
 
 \begin{frame}{BST: inserimento}
-    \lstinputlisting[]{./assets/code/bst_insert.dfy}
+    \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_insert.dfy}
 \end{frame}
 
 \begin{frame}{BST: ricerca}
-    \lstinputlisting[]{./assets/code/bst_find.dfy}
+    \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_find.dfy}
 \end{frame}
 
 \begin{frame}{BST: cancellazione}
     \only<1>{
-        \lstinputlisting[]{./assets/code/bst_remove.dfy}
+        \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_remove.dfy}
     }
     \only<2>{
-        \lstinputlisting[]{./assets/code/bst_removeMin.dfy}
+        \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_removeMin.dfy}
     }
 \end{frame}
 
