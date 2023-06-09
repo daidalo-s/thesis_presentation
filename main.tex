@@ -132,31 +132,61 @@ class Nome {
 \end{frame}
 
 \begin{frame}{BST: variabili d'istanza}
-    \lstinputlisting[]{./assets/code/bst_instance_var.dfy}
+    % \lstinputlisting[]{./assets/code/bst_instance_var.dfy}
+    \begin{figure}
+        \includegraphics[scale=0.5]{./assets/images/screenshots/instance.png}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{BST: invariante di struttura}
-    \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_invariant.dfy}
+    % \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_invariant.dfy}
+    \begin{figure}
+        \includegraphics[scale=0.5]{./assets/images/screenshots/valid.png}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{BST: costruttore}
-    \lstinputlisting[]{./assets/code/bst_constructor.dfy}
+    % \lstinputlisting[]{./assets/code/bst_constructor.dfy}
+    \begin{figure}
+        \includegraphics[scale=0.5]{./assets/images/screenshots/cons.png}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{BST: inserimento}
-    \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_insert.dfy}
+    % \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_insert.dfy}
+    \begin{figure}
+        \includegraphics[scale=0.4]{./assets/images/screenshots/insert.png}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{BST: ricerca}
-    \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_find.dfy}
+    % \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_find.dfy}
+    \begin{figure}
+        \includegraphics[scale=0.45]{./assets/images/screenshots/find.png}
+    \end{figure}
 \end{frame}
-
+% Potresti dividere ulteriormente la cancellazione
 \begin{frame}{BST: cancellazione}
+    % \only<1>{
+    %     \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_remove.dfy}
+    % }
+    % \only<2>{
+    %     \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_removeMin.dfy}
+    % }
     \only<1>{
-        \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_remove.dfy}
+        \begin{figure}
+            \includegraphics[scale=0.45]{./assets/images/screenshots/remove_1.png}
+        \end{figure}
     }
     \only<2>{
-        \lstinputlisting[basicstyle=\tiny]{./assets/code/bst_removeMin.dfy}
+        \begin{figure}
+            \includegraphics[scale=0.5]{./assets/images/screenshots/remove_2.png}
+        \end{figure}
+    }
+    \only<3>{
+        \begin{figure}
+            \includegraphics[scale=0.4]{./assets/images/screenshots/remove_3.png}
+        \end{figure}
     }
 \end{frame}
 
